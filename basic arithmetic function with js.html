@@ -1,0 +1,47 @@
+<h1>Basic Arithmetic function</h1>
+<p>Input two numbers</p>
+<input type="number" id="number" value="">
+<input type="number" id="numbers" value="">
+<button onclick="additionfunction()">Add</button>
+<button onclick="substractionfunction()">Substract</button>
+<button onclick="divisionfunction()">Divide</button>
+<button onclick="multiplicationfunction()">Multiply</button>
+<button onclick="remainderfunction()">Remainder</button>
+<button onclick="powerfunction()">Exponential</button>
+<p id="Answer"></p>
+
+<script>
+    function additionfunction() {
+        let x = document.getElementById("number").value;
+        let y = document.getElementById("numbers").value;
+        document.getElementById("Answer").innerHTML = parseInt(x) + parseInt(y);
+    }
+    function substractionfunction() {
+        let x = document.getElementById("number").value;
+        let y = document.getElementById("numbers").value;
+        document.getElementById("Answer").innerHTML = x - y;
+    }
+    function divisionfunction() {
+        let x = document.getElementById("number").value;
+        let y = document.getElementById("numbers").value;
+        document.getElementById("Answer").innerHTML = x/y;
+    }
+    function multiplicationfunction() {
+        let x = document.getElementById("number").value;
+        let y = document.getElementById("numbers").value;
+        document.getElementById("Answer").innerHTML = x * y;
+    }
+    function remainderfunction() {
+        let x = document.getElementById("number").value;
+        let y = document.getElementById("numbers").value;
+        document.getElementById("Answer").innerHTML = x % y;
+    }
+    function powerfunction(){
+        let x = document.getElementById("numbers").value;
+        let y = document.getElementById("numbers").value;
+        document.getElementById("Answer").innerHTML = Math.pow(x, y);
+    }
+
+</script>
+
+
