@@ -1,0 +1,20 @@
+<html>
+    <title>
+        Word counter with javascript
+    </title>
+    <body>
+        <h1>
+            Word counter with Javascript
+        </h1>
+        <br>
+        <input type="text" id="words" value="">
+        <button onclick="countwords()">Count words</button>
+        <p id ="count" ></p>
+    </body>
+    <script>
+function countwords() {
+    let x = document.getElementById("words").value;
+    alert(document.getElementById("count").innerHTML = x.length);
+}
+    </script>
+</html>
