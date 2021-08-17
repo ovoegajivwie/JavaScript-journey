@@ -1,0 +1,39 @@
+<html>
+    <title>
+        Reminder with Javascript
+    </title>
+    <body>
+        <h3>Reminder with Javascript</h3>
+        <input type="datetime-local" value="" id="usersettime">
+        <input type="text" value="Enter reminder info here..." id="reminder">
+        <p id="currenttime"></p>
+        <p id="usertime"></p>
+        <p id="timestatement"></p>
+        <button onclick="timefunction()">Start timer</button>
+        <script>
+            function timefunction() {
+                Notification.requestPermission();
+                setInterval(function() {
+                    
+                    let time = Date();
+                    let realtime = Date.parse(time);
+                    document.getElementById("currenttime").innerHTML = time;
+                    let usertargettime = document.getElementById("usersettime").value;
+                    let targettime = Date.parse(usertargettime);
+                    document.getElementById("usertime").innerHTML = usertargettime;
+                    if (realtime == targettime) {
+                        let notification = new Notification(document.getElementById("reminder").value);
+                    } else{
+                        document.getElementById("timestatement").innerHTML = "AWAITING TIME!";
+                    }
+                    if (realtime > targettime) {
+                        document.getElementById("timestatement").innerHTML = "AWAITING YOUR NEW TIME INPUT!";
+                    }
+                }, 1000);
+                
+            }
+
+
+        </script>
+    </body>
+</html>
