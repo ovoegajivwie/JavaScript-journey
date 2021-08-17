@@ -22,8 +22,9 @@
                     let targettime = Date.parse(usertargettime);
                     document.getElementById("usertime").innerHTML = usertargettime;
                     if (realtime == targettime) {
-                        let notification = new Notification(document.getElementById("reminder").value);
                         document.getElementById("timestatement").innerHTML = "TIME IS UP!";
+                        let notification = new Notification(document.getElementById("reminder").value);
+                        
                     } else{
                         document.getElementById("timestatement").innerHTML = "AWAITING TIME!";
                     }
