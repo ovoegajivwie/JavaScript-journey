@@ -1,0 +1,549 @@
+@media (max-width:649px) {
+    
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    width: 100%;
+
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    padding-top:1rem;
+    position: absolute;
+}
+
+.menu{
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    z-index: 2;
+    display: none;
+    flex-direction: column;
+
+    font-size: 25px;
+}
+
+.menutoggle{
+    display: flex;
+}
+
+.menuimage{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    /* background-color: red; */
+    margin-top: 20px;
+
+}
+
+.close{
+    width: 10%;
+}
+
+.menulink{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* background-color: red; */
+    height: 15rem;
+    text-align: left;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.link1{
+    color: rgba(255, 255, 255, 0.479);
+}
+
+.hamenu{
+    width: 10%;
+    margin-right: 10px;
+}
+
+.logo1{
+    width: 50%;
+    margin-left: 10px;
+}
+
+.logo2{
+    width: 100%;
+    position: relative;
+    z-index: -1;
+}
+
+.box{
+    border: 1px solid white;
+    text-align: left;
+    margin-left: 5%;
+    width: 90%;
+    color: white;
+    position: absolute;
+    top: 0;
+    margin-top: 230px;
+}
+
+.vr{
+    width: 90%;
+    height: auto;
+    margin-top: 3rem;
+}
+
+.vrdiv{
+    margin: auto;
+    text-align: center;
+}
+
+.vrdiv p{
+    width: 80%;
+    margin: auto;
+}
+
+.creations{
+    text-align: center;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.image{
+    width:100%;
+    height: auto;
+    margin-top: 10px;
+}
+
+.desktopgrid p{
+    position: absolute;
+    margin-top: 3rem;
+    /* background-color: rgb(255, 0, 0); */
+    width: 110px;
+    text-align: left;
+    padding-left: 15px;
+    font-size: 20px;
+    color: white;
+}
+
+.btn{
+    color: black;
+    background-color: white;
+    display: block;
+    size: 20px;
+    border: 1px solid black;
+    padding: 15px;
+    margin: auto;
+    margin-top: 2rem;
+    width: 40%;
+    font-size: 18px;
+    font-family: Alata;
+}
+
+footer{
+    background-color: black;
+    margin-top: 5rem;
+    text-align: center;
+}
+
+.logo3{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.links{
+    display: flex;
+    flex-direction: column;
+    /* background-color: red; */
+    height: 10rem;
+    justify-content: space-between;
+    padding-bottom: 3rem;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.socials{
+    display: flex;
+    /* background-color: red; */
+    margin: auto;
+    width: 45%;
+    justify-content: space-around;
+    padding-bottom: 2rem;
+    flex-direction: row;
+}
+
+/* .imagesocials{
+
+} */
+
+.bottomtxt{
+    color: rgba(255, 255, 255, 0.384);
+    padding-bottom: 2rem;
+}
+
+.herodesktop{
+    display: none;
+}
+
+.vrdesktop{
+    display: none;
+}
+
+.imagedesktop{
+    display: none;
+}
+
+.btn1{
+    display: none;
+}
+}
+
+@media (min-width:650px) {
+    
+    body{
+        margin: 0;
+        padding:0;
+    }
+
+    .logo1{
+        width: 30%;
+        /* background-color: green; */
+    }
+
+    .logo2{
+        display: none;
+    }
+
+    .header{
+        width: 100%;
+    }
+
+    .herodesktop{
+        width: 100%;
+        height: auto;
+    }
+
+    .navbar{
+        /* background-color: black; */
+        display: flex;
+        justify-content: space-between;
+        width: 90%;
+        margin: auto;
+        position: absolute;
+        margin-left: 5%;
+        padding-top: 20px;
+
+    }
+    .menuimage{
+        display: none;
+    }
+
+    .hamenu{
+        display: none;
+    }
+
+    .menu{
+        width: 60%;
+    }
+
+    .menulink{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        /* background-color: red; */
+        text-decoration: none;
+        height: 100%;
+    }
+
+    .link1{
+        text-decoration: none;
+        color: white;
+        margin: auto;
+    }
+
+    .box{
+        border: 1px solid white;
+        text-align: left;
+        margin-left: 5%;
+        width: 40%;
+        color: white;
+        position: absolute;
+        top: 0;
+        margin-top: 15%;
+    }
+
+    .vr{
+        display: none;
+    }
+
+    .vrdesktop{
+        width: 100%;
+        height: auto;
+        padding-top: 80px;
+    }
+
+    .vrdiv{
+        width: 100%;
+        display: flex;
+    }
+
+    .vrimgdiv{
+        width: 50%;
+        margin-left: 7%;
+    }
+
+    .vrtxtdiv{
+        background-color: rgb(255, 255, 255);
+        width: 50%;
+        margin-top: 150px;
+        position: absolute;
+        margin-left: 45%;
+        height: 30vw;
+    }
+
+    .vrtxtdiv h1{
+        line-height: 2rem;
+    }
+
+    .txtdiv{
+        width: 90%;
+        
+        margin-right: auto;
+        margin-left: auto;
+        margin-top:5%;
+        margin-bottom: auto;
+        background-color: rgba(255, 192, 203, 0);
+    }
+
+    .creations{
+        margin-top: 50px;
+    }
+
+    .creations h1{
+    }
+
+    .btn1{
+        color: black;
+        background-color: white;
+        display: block;
+        size: 20px;
+        border: 1px solid black;
+        margin-top: auto;
+        margin-bottom: auto;
+        padding: 15px;
+        width: 150px;
+        font-size: 18px;
+        font-family: Alata;
+    }
+
+    .subhead{
+        display: flex;
+        justify-content: space-between;
+        /* background-color: green; */
+        width: 86%;
+        margin: auto
+    }
+    .btn{
+        display: none;
+    }
+
+    .image{
+        display: none;
+    }
+
+    .imagedesktop{
+        height: auto;
+        width: 20%;
+        margin-right: 5%;
+        margin-bottom: 2rem;
+
+    }
+
+    .desktopgrid{
+        display: flex;
+        flex-wrap: wrap;
+        width: 90%;
+        margin-left: 7%;
+    }
+
+    .imagep1{
+        margin-top: 23%;
+        margin-left: 2%;
+        position: absolute;
+        /* background-color: rgb(255, 0, 0); */
+        width: 110px;
+        text-align: left;
+        font-size: 20px;
+        color: white;
+    }
+    
+    .imagep2{
+        margin-top: 23%;
+        position: absolute;
+        margin-left: 25%;
+        /* background-color: rgb(255, 0, 0); */
+        width: 110px;
+        text-align: left;
+        font-size: 20px;
+        color: white;
+    }
+
+    .imagep3{
+        margin-top: 23%;
+        position: absolute;
+        margin-left: 48%;
+        /* background-color: rgb(255, 0, 0); */
+        width: 110px;
+        text-align: left;
+        font-size: 20px;
+        color: white;
+    }
+
+    .imagep4{
+        margin-top: 23%;
+        position: absolute;
+        margin-left: 70%;
+        /* background-color: rgb(255, 0, 0); */
+        width: 110px;
+        text-align: left;
+        font-size: 20px;
+        color: white;
+    }
+
+    .imagep5{
+        position: absolute;
+        margin-top: 57%;
+        margin-left: 0%;
+        /* background-color: rgb(255, 0, 0); */
+        width: 110px;
+        text-align: left;
+        padding-left: 15px;
+        font-size: 20px;
+        color: white;
+    }
+
+    .imagep6{
+        position: absolute;
+        margin-top: 57%;
+        margin-left: 23%;
+        width: 110px;
+        text-align: left;
+        padding-left: 15px;
+        font-size: 20px;
+        color: white;
+    }
+
+    .imagep7{
+        position: absolute;
+        margin-top: 57%;
+        margin-left: 46%;
+        /* background-color: rgb(255, 0, 0); */
+        width: 110px;
+        text-align: left;
+        font-size: 20px;
+        color: white;
+    }
+
+    .imagep8{
+        position: absolute;
+        margin-top: 57%;
+        margin-left: 69%;
+        /* background-color: rgb(255, 0, 0); */
+        width: 110px;
+        text-align: left;
+        font-size: 20px;
+        color: white;
+    }
+
+    footer{
+        background-color: black;
+        margin-top: 5rem;
+        text-align: center;
+        display: flex;
+        justify-content: space-between;
+        padding-left: 7%;
+        padding-right: 7%;
+    }
+    
+    .logo3{
+        width: 40%;
+        height: auto;
+    }
+    
+    .links{
+        display: flex;
+        flex-direction: row;
+        /* background-color: red; */
+        justify-content: space-between;
+        width: 100%;
+    }
+    
+    a{
+        text-decoration: none;
+        color: white;
+    }
+    
+    .socials{
+        display: flex;
+        /* background-color: yellow; */
+        width: 55%;
+        justify-content: space-between;
+
+        flex-direction: row;
+        margin-left: 50%;
+        margin-top: 5%;
+    }
+    
+    .imagesocials{
+    margin: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    }
+    
+    .bottomtxt{
+        color: rgba(255, 255, 255, 0.384);
+        /* background-color: rgb(98, 0, 255); */
+        width: 100%;
+        height: 40%;
+        text-align: right;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+    .ftdiv1{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        /* background-color: green; */
+        margin-top: auto;
+        margin-bottom: auto;
+        height: 4rem;
+        width: 50%;
+    }
+
+    .ftdiv2{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        /* background-color: blue; */
+        margin-top: auto;
+        margin-bottom: auto;
+        width: 50%; 
+        height: 6rem;
+    }
+}
+
+
