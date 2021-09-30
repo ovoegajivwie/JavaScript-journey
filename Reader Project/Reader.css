@@ -1,0 +1,53 @@
+body{
+
+    padding: 0;
+    margin:0;
+    font-size:16px;
+	background-color: white;
+}
+header{
+				width:100%;
+				background:#ffe64081;
+				color:#414141;
+				Text-align:left;
+				top:0;
+				margin-top: 0px;
+				padding-top: 0;
+				transform: translateY(-1.5rem);
+				padding:0;
+				margin: 0;
+}
+
+.inputbox{
+				background-color:#ffe64081;
+				border-radius:20px;
+				border-color:1px solid rgb(37, 168, 255);
+				margin-top: 20vh;
+				margin-left: auto;
+				margin-right: auto;
+				margin-bottom: auto;
+				display:flex;
+				flex-direction: column;
+				width: 20rem;
+				height:15rem;
+				justify-content: space-around;
+				box-shadow: rgba(0, 0, 0, 0.2) 0px 60px 40px -7px;
+}
+
+.speakbtn{
+				border:none;
+				background-color:#414141;
+				width:50%;
+				margin:auto;
+				border-radius:10px;
+				height:2rem;
+				color: white;
+}
+
+.userword{
+				width:80%;
+				margin:auto;
+				border:none;
+				border-radius:10px;
+				height:3rem;
+}
